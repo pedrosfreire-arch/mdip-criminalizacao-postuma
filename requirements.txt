@@ -1,0 +1,23 @@
+# Pipeline de Coleta - Dependências
+# Instalar com: pip install -r requirements.txt
+
+# Crawlers
+gdeltdoc>=1.0
+fake-useragent>=1.4
+
+# Scrapers
+trafilatura>=1.8
+newspaper4k>=0.9
+playwright>=1.40
+
+# Análise e deduplicação
+pandas>=2.0
+fuzzywuzzy>=0.18
+python-Levenshtein>=0.25
+
+# Utilitários
+tqdm>=4.65
+requests>=2.31
+
+# Após instalar, rodar também:
+# playwright install chromium
